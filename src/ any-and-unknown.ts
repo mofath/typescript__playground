@@ -5,12 +5,11 @@
 // gives you complete freedom to assign anything to a varaible
 // without worrrying about type checks
 // any exist to allow you to completely bypass the typescript type checks if your are in a rush
-exampleAny = 123;
-exampleAny = 'hello';
+let exampleAny = 123;
+let exampleAny2 = 'hello';
 
 // you can build any ridiclus chain you can imagine
-exampleAny.allows.anything.you.can.imagine();
-let anySetBool: boolean = exampleAny;
+// exampleAny!.allows.anything.you.can.imagine();
 
 // unkown
 // unkown is safer than any

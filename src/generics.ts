@@ -17,7 +17,7 @@ class Stack<T> {
   }
 
   display(): void {
-    this.data.forEach((item) => console.log(item.toString()));
+    this.data.forEach((item) => console.log(item));
   }
 }
 
